@@ -360,6 +360,15 @@ There are **four gates** in the SDD workflow. Each requires explicit human appro
 
 ---
 
+## Documentation
+
+| Document | Description |
+| --- | --- |
+| [AI-Assisted Software Development Workflow](docs/spec-driven-development-workflow.md) | A comprehensive guide to structured, specification-first development with AI agents — from product requirements to production code. |
+| [SDD Artefact Storage & Review Guide](docs/sdd-artefact-storage-review-guide.md) | How spec and plan docs are stored, reviewed, and linked in GitHub and Linear |
+
+---
+
 ## Glossary
 
 | Term | Definition |
