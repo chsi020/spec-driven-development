@@ -65,28 +65,28 @@ The SDD workflow is divided into **10 steps** across **4 phases**, with **4 huma
 ```mermaid
 flowchart TD
     subgraph PHASE1["📋 Phase 1 — Requirements"]
-        S1["**Step 1** · Product Manager · Author PRD & Create Linear Issues"]
+        S1["Step 1 · Product Manager · Author PRD & Create Linear Issues"]
     end
 
     subgraph PHASE2["📝 Phase 2 — Specification"]
-        S2["**Step 2** · Developer · Brief the AI Agent on Linear Issues"]
-        S3["**Step 3** · AI Agent · Generate Spec Document"]
-        S4["**Step 4** · PM + Developer · Review & Approve Spec"]
+        S2["Step 2 · Developer · Brief the AI Agent on Linear Issues"]
+        S3["Step 3 · AI Agent · Generate Spec Document"]
+        S4["Step 4 · PM + Developer · Review & Approve Spec"]
         G1{"🔒 GATE · Spec Approved?"}
     end
 
     subgraph PHASE3["⚙️ Phase 3 — Implementation"]
-        S5["**Step 5** · Developer + AI · Create Implementation Plan"]
+        S5["Step 5 · Developer + AI · Create Implementation Plan"]
         G2{"🔒 GATE · Plan Approved?"}
-        S6["**Step 6** · AI Agent · Execute Implementation Plan"]
-        S7["**Step 7** · AI Agent · Write Tests & Verify Pass"]
+        S6["Step 6 · AI Agent · Execute Implementation Plan"]
+        S7["Step 7 · AI Agent · Write Tests & Verify Pass"]
         G3{"🔒 GATE · All Tests Passing?"}
     end
 
     subgraph PHASE4["✅ Phase 4 — Quality"]
-        S8["**Step 8** · Developer + AI · Polish the Code (optional)"]
-        S9["**Step 9** · Developer + AI · AI-Assisted Code Review"]
-        S10["**Step 10** · Developer · Merge PR & Close Linear Issue"]
+        S8["Step 8 · Developer + AI · Polish the Code (optional)"]
+        S9["Step 9 · Developer + AI · AI-Assisted Code Review"]
+        S10["Step 10 · Developer · Merge PR & Close Linear Issue"]
         G4{"🔒 GATE · PR Approved?"}
     end
 
